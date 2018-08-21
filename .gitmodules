@@ -1,0 +1,6 @@
+[submodule "tools/HackMyResume"]
+	path = tools/HackMyResume
+	url = https://github.com/hacksalot/HackMyResume.git
+[submodule "tools/linkedin-to-json-resume"]
+	path = tools/linkedin-to-json-resume
+	url = https://github.com/JMPerez/linkedin-to-json-resume.git
