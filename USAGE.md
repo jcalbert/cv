@@ -21,6 +21,7 @@ it appears that Volunteer Experience and Awards are missing.
 cd tools/linkedin-to-json-resume/src
 npm run start
 ```
+Note : the move to typescript has been creating trouble, so for now use `920ec37`
 
 2.  Use page to parse LinkedIn data and download resume.json as `./data/linkedin_jsr.json`
 
