@@ -7,10 +7,23 @@
   {{#each r.education.history}}
     {{#> body-education }}
     <div>
-      <h3>{{#if title}}<em>{{{ title }}}</em>, {{/if}}{{{ institution }}}</h3>
+      <h3>
+        <em>{{{ institution }}}</em>,
+          {{#if title}}
+            {{{ title }}}
+          {{else}}
+            {{#if studyType}}{{{ studyType }}}{{/if}}
+          {{/if}}
+      </h3>
       <span class="tenure">{{dateRange .}}</span>
       {{#if location}}<span class="location">{{location}}</span>{{/if}}
-      {{{ summary }}}
+      <br><br>
+      {{#if summary}}
+        {{{ summary }}}
+      {{else}}
+        {{{ area }}}
+      {{/if}}
+      <br>
       {{> highlights }}
       {{#if curriculum}}
         <span class="keywords">
