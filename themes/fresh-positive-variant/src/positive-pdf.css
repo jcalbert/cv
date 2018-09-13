@@ -24,6 +24,10 @@ a {
   text-decoration: none;
 }
 
+h3 a {
+  color: inherit; /*no link-colored headlines*/
+}
+
 a:visited {
   color: #7B0796;
 }
@@ -39,7 +43,7 @@ h1 {
 
 h2 {
   text-transform: uppercase;
-  color: #898989;
+  color: #B00000;
   font-size: 2em;
   position: relative;
   font-weight: 400;
@@ -53,7 +57,7 @@ h3, .tenure {
 h3 {
   margin-top: 0;
   margin-bottom: 5px;
-  /*width: 85%;*/
+  max-width: 85%;
   float: left;
 }
 
@@ -64,8 +68,11 @@ table {
 
 td:first-child {
   letter-spacing: 0;
-  color: #bd5b5b;
-  font-size: 20px;
+  /*color: #bd5b5b;*/
+  font-size: 140%;
+  text-align: left;
+  vertical-align: center;
+  /*font-weight: bold;*/
 }
 
 td:last-child {
@@ -83,11 +90,11 @@ main {
 }
 
 section {
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 section > div {
-  margin-top: 2em;
+  margin-top: 1em;
   overflow: hidden; /* Clear floated children */
 }
 
@@ -141,7 +148,7 @@ p, li {
 }
 
 span.keywords {
-  font-size: 12px;
+  font-size: 14px;
   color: #B16666;
 }
 
@@ -194,7 +201,7 @@ header > span.fa {
 }
 
 #summary {
-  color: #717171;
+  color: #515151;
   font-size: 1.25em;
   margin-top: 6em;
 }
