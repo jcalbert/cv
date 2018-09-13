@@ -11,7 +11,7 @@
     <main>
       <header>
         <h1>{{{initialWords r.name }}} <span style="color: #C00000;">{{{lastWord r.name }}}</span></h1>
-        <span class="label">{{{ r.info.label }}}</span>
+        <!-- <span class="label">{{{ r.info.label }}}</span> -->
         <p id="contact">
           {{#if r.contact.email}}<span class="email"><a href="mailto:{{ RAW.contact.email }}">{{{ r.contact.email }}}</a></span>{{/if}}
           {{#if r.contact.phone}}<span class="phone">{{{ r.contact.phone }}}</span>{{/if}}
