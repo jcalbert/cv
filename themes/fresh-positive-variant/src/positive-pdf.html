@@ -34,17 +34,23 @@
         icon into the global partial. For this theme, we're using Font Awesome.
       -->}}
 
-      {{#*inline "icon-skills"}}<span class="fa fa-lg fa-code"></span>{{/inline}}
-      {{> section/skills _icon="icon-skills"}}
+      {{#*inline "icon-education"}}<span class="fa fa-lg fa-mortar-board"></span>{{/inline}}
+      {{> education _icon="icon-education"}}
 
       {{#*inline "icon-employment"}}<span class="fa fa-lg fa-building"></span>{{/inline}}
       {{> employment _icon="icon-employment"}}
 
+      {{#*inline "icon-skills"}}<span class="fa fa-lg fa-code"></span>{{/inline}}
+      {{> section/skills _icon="icon-skills"}}
+
       {{#*inline "icon-projects"}}<span class="fa fa-lg fa-star"></span>{{/inline}}
       {{> section/projects _icon="icon-projects"}}
 
-      {{#*inline "icon-education"}}<span class="fa fa-lg fa-mortar-board"></span>{{/inline}}
-      {{> education _icon="icon-education"}}
+      {{#*inline "icon-writing"}}<span class="fa fa-lg fa-pencil"></span>{{/inline}}
+      {{> section/writing _icon="icon-writing"}}
+
+      {{#*inline "icon-speaking"}}<span class="fa fa-lg fa-users"></span>{{/inline}}
+      {{> section/speaking _icon="icon-speaking"}}
 
       {{#*inline "icon-affiliation"}}<span class="fa fa-lg fa-share-alt"></span>{{/inline}}
       {{> section/affiliation _icon="icon-affiliation"}}
@@ -58,17 +64,11 @@
       {{#*inline "icon-samples"}}<span class="fa fa-lg fa-share"></span>{{/inline}}
       {{> section/samples _icon="icon-samples"}}
 
-      {{#*inline "icon-writing"}}<span class="fa fa-lg fa-pencil"></span>{{/inline}}
-      {{> section/writing _icon="icon-writing"}}
-
       {{#*inline "icon-reading"}}<span class="fa fa-lg fa-book"></span>{{/inline}}
       {{> section/reading _icon="icon-reading"}}
 
       {{#*inline "icon-recognition"}}<span class="fa fa-lg fa-trophy"></span>{{/inline}}
       {{> section/recognition _icon="icon-recognition"}}
-
-      {{#*inline "icon-speaking"}}<span class="fa fa-lg fa-users"></span>{{/inline}}
-      {{> section/speaking _icon="icon-speaking"}}
 
       {{#*inline "icon-testimonials"}}<span class="fa fa-lg fa-quote-left"></span>{{/inline}}
       {{> testimonials _icon="icon-testimonials"}}
