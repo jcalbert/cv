@@ -87,7 +87,7 @@
         {{{wpml r.info.brief true }}}
       </w:p>
       {{/has}}
-      {{#section "skills"}}{{> skills }}{{/section}}
+      {{#section "skills"}}{{> skillsDOC }}{{/section}}
 
       {{#*inline "header-employment"}}
       {{> header-icon _title="EMPLOYMENT" _section="employment" _icon="pict/emp" }}
